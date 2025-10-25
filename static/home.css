@@ -157,10 +157,10 @@ footer p
     }
 
     ul {
-        flex-direction: colum;
+        display: flex;
         align-items: center;
         justify-content: center;
-        gap: 15px;
+        gap: 10px;
         width: 100%;
     }
 
@@ -177,7 +177,7 @@ footer p
     }
 
     .brand h2 {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     .brand p {
