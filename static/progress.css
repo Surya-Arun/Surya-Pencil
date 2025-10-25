@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #f8f8f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+.hero {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: #3e2723;
+    margin-bottom: 20px;
+}
+
+.intro, .outro {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    color: #4e342e;
+}
+
+
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #8d6e63;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 3px;
+}
+
+.stage {
+    padding: 20px 40px;
+    position: relative;
+    width: 50%;
+}
+
+.stage .content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #8d6e63;
+    text-align: left;
+}
+
+.stage.left {
+    left: 0;
+}
+
+.stage.right {
+    left: 50%;
+}
+
+.stage::before {
+    content: '';
+    position: absolute;
+    top: 25px;
+    width: 20px;
+    height: 20px;
+    background-color: #8d6e63;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.stage.left::before {
+    right: -10px;
+}
+
+.stage.right::before {
+    left: -10px;
+}
+
+.stage img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .timeline::after {
+        left: 30px;
+    }
+
+    .stage {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 25px;
+    }
+
+    .stage.right {
+        left: 0;
+    }
+
+    .stage::before {
+        left: 15px;
+    }
+}

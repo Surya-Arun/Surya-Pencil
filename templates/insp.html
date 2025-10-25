@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='/static/insp.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Lora&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <title>Inspiration Page</title>
+</head>
+<body>
+    <div class='hero'>
+        <div class='nav'>
+            <h3>My Insipirations for Art</h3>
+        </div>
+        <div class='cards'>
+            <div class='card'>
+                <h3>Sunset</h3>
+                <img src='/static/img/sunset.jpeg'>
+                <p>Warmth Of Sunset</p>
+            </div>
+            <div class='card'>
+                <h3>Mother Nature</h3>
+                <img src='/static/img/nature.webp'>
+                <p>The Soul that Nurtures All</p>
+            </div>
+            <div class='card'>
+                <h3>Sea</h3>
+                <img src='/static/img/sea2.webp'>
+                <p>Whispers of Infinity</p>
+            </div>
+            <div class='card'>
+                <h3>Animals</h3>
+                <img src='/static/img/animals.png'>
+                <p>The Untamed Heart of Life</p>
+            </div>
+            <div class='card'>
+                <h3>Birds</h3>
+                <img src='/static/img/birds.png'>
+                <p>Freedom in Motion</p>
+            </div>
+        </div>
+        <div class="reveal-section">
+            <button id="reveal-btn">Do you want to know why my sources of inspiration are different?</button>
+        </div>
+        <div class='note' id='note'>
+            <p class='intro'>Most artists find inspiration in people, emotions, or imagination</p>
+<p class='sec'>But mine come from something quieter — the world that exists beyond words</p>
+            <p class='say'>♥ The <strong>Sunset</strong>, with its fleeting warmth, teaches me that beauty doesn’t need to last forever to be meaningful.</p>
+            <p class='say'>♥ <strong>Mother Nature</strong>, in her calm and chaos, reminds me that creation always begins with patience</p>
+            <p class='say'>♥ The <strong>Sea</strong>, endlessly moving, tells me that emotion is never still — it comes in waves, just like thoughts.</p>
+            <p class='say'>♥ <strong>Animals</strong>, wild yet innocent, show me honesty in its purest form — they feel deeply, without pretending.</p>
+            <p class='say'>♥ And <strong>Birds</strong>, soaring freely, remind me that dreams are meant to be unbound.</p>
+            <p class='extro'>“Every sketch is my thank-you letter to the world outside my window”</p>
+        </div>
+    </div>
+     <script>
+        const btn = document.getElementById('reveal-btn');
+        const note = document.getElementById('note');
+
+        btn.addEventListener('click', () => {
+            note.classList.toggle('show');
+            if (note.classList.contains('show')) {
+                btn.textContent = "Hide My Inspiration Story";
+            } else {
+                btn.textContent = "Do you want to know why my sources of inspiration are different?";
+            }
+        });
+    </script>
+        
+</body>
+</html>

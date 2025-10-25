@@ -1,0 +1,117 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.hero
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(220,220,220,0.1);
+    flex-direction: column;
+}
+h1{
+    
+    padding: 30px;
+    text-align: center;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+}
+
+section
+{
+    background-color:black;
+    width:100%;
+}
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap:80px;
+    padding:60px;
+    width:100%;
+    max-width: 1200px;
+    margin:auto;
+    cursor: pointer;
+
+}
+
+.card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card button
+{
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    background:black;
+    border-top:3px solid white;
+    font-family: "Charm", cursive;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing:2px;
+    font-size: 1.1em;
+
+}
+
+.card button:hover
+{
+    transform: scale(1.05);
+}
+
+.card a 
+{
+    text-decoration: none;
+    color:whitesmoke;
+    font-weight: bold;
+}
+
+.card img:hover
+{
+    transform: scale(1.1);
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.5);
+}
+
+.card img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border:4px solid black;
+}
+
+h1:hover
+{
+    color:wheat;
+}
+
+
+@media (max-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(2,1fr);
+        padding: 30px;
+        gap: 30px;
+    }
+
+    .card button {
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+}

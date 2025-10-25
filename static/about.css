@@ -1,0 +1,131 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.hero
+{
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    background-color: rgba(171, 168, 168, 0.12);
+}
+
+.nav
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    width:100%;
+    gap:20px;
+    padding: 20px;
+    border-bottom: 2px solid black;
+}
+
+h2
+{
+    font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 3em;
+  color: whitesmoke;
+}
+
+.nav p
+{
+    font-family: "Explora", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:1.8em;
+  color: wheat;
+}
+
+.image img {
+    width: 300px;      
+    height: 300px;       
+    border-radius: 50%;      
+    object-fit: cover;      
+    border: 1px solid gray;
+}
+
+
+.contents {
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+}
+
+.contents h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #222;
+    padding: 10px;
+}
+
+.contents .ph {
+    font-size: 1.1em;
+    line-height: 1.8;
+    padding: 5px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.contents strong {
+    color: #555;
+    font-weight: 600;
+}
+
+.contents .thanks {
+    font-style: italic;
+    color: #666;
+    margin-top: 25px;
+    font-size:1.3em;
+    font-weight:600;
+}
+
+
+
+@media (max-width: 768px) {
+    .nav {
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .image img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .contents {
+        padding: 25px;
+        max-width: 90%;
+    }
+
+    .contents h3 {
+        font-size: 1.8em;
+    }
+
+    .contents .ph {
+        font-size: 1em;
+    }
+
+    .contents .thanks {
+        font-size: 1.1em;
+    }
+}
