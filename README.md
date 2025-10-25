@@ -2,7 +2,7 @@
    “Where emotions meet lines and sketches tell stories.”
 
 # View My Site
-   ![Live Link](https://surya-arun.github.io/Surya-Pencil/)
+   [Surya's Pencil](https://surya-arun.github.io/Surya-Pencil/)
    
 # Author
    Surya Arun - Aspiring Full Stack Developer and Artist
