@@ -3,7 +3,7 @@
 
    
 # Author
-  ### Surya Arun - Aspiring Full Stack Developer and Artist
+  #### Surya Arun - Aspiring Full Stack Developer and Artist
 
 
 
@@ -53,12 +53,26 @@ The website is designed to be interactive, engaging, and responsive, allowing vi
 
 ## Screenshots
 
+### Home Page
+
 ![Home](/static/sc/home.png)
+
+
+### Gallery Page
 
 ![Gallery](/static/sc/gallery.png)
 
+
+### Inspiration Page
+
 ![Inspiration](/static/sc/insp.png)
 
+
+### Progress Page
+
 ![Progress](/static/sc/progress.png)
+
+
+### About Page
 
 ![About](/static/sc/about.png)
