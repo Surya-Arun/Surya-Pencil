@@ -89,8 +89,7 @@
     font-style: italic;
     font-size: 1.2em;
     border-radius: 30px;
-    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
-    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('/static/img/pencil4.jpeg');
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../static/img/pencil4.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

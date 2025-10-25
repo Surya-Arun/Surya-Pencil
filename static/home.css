@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('/static/img/bg1.jpg');
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../static/img/bg1.jpg');
     background-size:cover;
     background-repeat:no-repeat;
     background-position: center;
